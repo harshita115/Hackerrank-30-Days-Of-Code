@@ -1,0 +1,14 @@
+#include <cmath>
+#include <cstdio>
+#include <vector>
+#include <iostream>
+#include <algorithm>
+using namespace std;
+int main() {
+    char a[100];
+    cout<<"Hello, World."<<endl;
+    gets(a);
+    cout<<a;
+    return 0;
+}
+
