@@ -1,0 +1,25 @@
+#include <iostream>
+#include <iomanip>
+#include <limits>
+
+using namespace std;
+
+int main() {
+    int i = 4;
+    double d = 4.0;
+    string s = "HackerRank ";
+
+    int x;
+    double y;
+    string str;
+    cin >> x;
+    cin >> y;
+    cin.get();
+    getline(cin, str);
+    cout << x + i << endl;
+    cout << fixed<<setprecision(1)<<y + d << endl;
+    cout << s + str << endl;
+
+
+    return 0;
+}
