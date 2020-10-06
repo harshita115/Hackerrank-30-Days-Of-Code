@@ -9,11 +9,11 @@ int main()
     if(num%2==0)
     {
         if(2<=num && num<=5)
-           cout<<"Not Weird";
+           cout<<"Not weird ";
         else if(6<=num && num<=20)
-           cout<<"Weird";
+           cout<<"Weird ";
         else
-           cout<<"Not Weird";
+           cout<<"Not weird";
      }
     else
         cout<<"Weird";
