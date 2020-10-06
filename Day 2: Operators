@@ -4,14 +4,14 @@ using namespace std;
 
 int main()
 {
-    int tipP, taxP;
-    double mealcost,tip,tax,total;
+    int tip, tax;
+    double mealcost,tipP,taxP,total;
     cin>>mealcost;
-    cin>>tipP;
-    cin>>taxP;
-    tip=(mealcost*tipP/100);
-    tax=(mealcost*taxP/100);
-    total=round(mealcost+tip+tax);
+    cin>>tip;
+    cin>>tax;
+    tipP=(mealcost*tip/100);
+    taxP=(mealcost*tax/100);
+    total=round(mealcost+tipP+taxP);
     cout<<total;
     return 0;
 }
