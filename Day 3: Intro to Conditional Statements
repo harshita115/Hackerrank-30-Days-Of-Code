@@ -4,13 +4,13 @@ using namespace std;
 
 int main()
 {
-    int n;
-    cin >> n;
-    if(n%2==0)
+    int num;
+    cin >> num;
+    if(num%2==0)
     {
-        if(2<=n && n<=5)
+        if(2<=num && num<=5)
            cout<<"Not Weird";
-        else if(6<=n && n<=20)
+        else if(6<=num && num<=20)
            cout<<"Weird";
         else
            cout<<"Not Weird";
