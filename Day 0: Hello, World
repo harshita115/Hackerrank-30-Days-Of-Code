@@ -12,6 +12,9 @@ int main() {
     return 0;
 }
 
+Output
+Hello, World.
+
 /*python code*/
 
 # Read a full line of input from stdin and save it to our dynamically typed variable, input_string.
